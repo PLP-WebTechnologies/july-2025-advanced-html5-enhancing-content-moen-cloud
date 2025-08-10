@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+        <head>
+            <title>WEB DEVELOPMENT WEEK 2 ASSIGNMENT</title>
+        </head>
+        <body>
+            <h1>LISTS</h1>
+
+            <p> lists are used to group a set of related items, presenting information in a structured and easy-to-read format.
+            
+                They help organize content, improve readability, and enhance the accessibility of web pages by semantically grouping related elements. </p>
+            
+                <p> There are various types of lists </p>
+
+            <h2>ORDERED LISTS</h2>
+            <P> Used for lists where the order of items is important, such as steps in a procedure or a numbered sequence. </P>
+            <ol type ='a'>
+                <li>LONDON</li>
+                <li>NEW YORK</li>
+                <li>BERLIN</li>
+            </ol>
+
+            <h3>UNORDERED LISTS</h3>
+            <P>Used for lists where the order of items is not significant. 
+            By default, items in an unordered list are typically displayed with bullet points.</P>
+            <ul>
+                <li>MIAMI</li>
+                <li>SANTORINI</li>
+                <li>CHICAGO</li>
+            </ul>
+            <h3>IMAGES</h3>
+            <p>"image" refers to a visual representation, such as a photograph, graphic, or illustration, that is embedded within a web page. 
+                Images are not directly inserted into the HTML document; instead, they are linked to it using the <img> tag.</p>
+                <img src="list.jpeg" alt="a picture of a list" width="300" height="200">
+
+                <h3>VIDEOS</h3>
+                <video width="500" height="300" controls>Your browser does not support videos
+                    <source src="intro.mp4" type="video/mp4">
+                </video>
+                
+                <h3>AUDIO</h3>
+                <audio controls>Your browser does not support audios
+                    <source src="amapiano.mp3" type="audio/mp3">
+                </audio>
+
+                <h4>Tables</h4>
+                <table border="2">
+                    <thead>
+                        <tr>
+                            <th>Name</th>
+                            <th>Gender</th>
+                            <th>Age</th>
+                            <th>Country</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Moen</td>
+                            <td>male</td>
+                            <td>21</td>
+                            <td>Kenya</td>
+                        </tr>
+                        <tr>
+                            <td>James</td>
+                            <td>Male</td>
+                            <td>19</td>
+                            <td>Usa</td>
+                        </tr>
+                        <tr>
+                            <td>Mariam</td>
+                            <td>Female</td>
+                            <td>22</td>
+                            <td>Dubai</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <h4>FORMS</h4>
+                <p> A form is a section of a web document that enables user interaction and data submission. 
+                    It is defined by the <form> HTML element and typically contains various form controls that allow users to enter or select data. </p>
+                        <form action="location" method="">
+                            <label for="name">NAME:</label>
+                            <input type="text" name="name" id="name" placeholder="Enter your name here"><br/><br/>
+
+                            <label for="email">EMAIL:</label>
+                            <input type="email" name="email" id="email" placeholder="Enter your email here"><br/><br/>
+                        
+                            <label for="age">AGE:</label>
+                            <input type="number" name="age" id="age" max="30" min="15" placeholder="Enter your age here"><br/><br/>
+                            <label for="dob">Date of Birth:</label>
+                            <input type="date" name="dob" id="dob"><br/><br/>
+
+                            <label for="Gender">Gender:</label>
+                            <input type="radio" name="Gender" value="Male">Male
+                            <input type="radio" name="Gender" Value="Female">Female<br/><br/>
+                            <label for="cv">Upload CV:</label>
+                            <input type="file" name="cv" id="cv" accept=".pdf, .doc .txt "><br/><br/>
+                            <label for="bio">Bio:</label>
+                            <textarea name="bio" id="bio" cols="30" rows="10" placeholder="Write your bio here"></textarea>><br/><br/>
+
+                            <input type="submit" value="submit">
+
+
+                        </form>
+        </body>
+</html>
